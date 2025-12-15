@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Makan Nusantara</title>
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background-color: #fb1c10;
+        color: #333;
+    }
+
+    header {
+        background-color: #cf0606;
+        color: rgb(180, 29, 29);
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }   
+
+    .hero {
+        background: url(../Downloads/RM.Nusantara.jpg) center/cover no-repeat;
+        color: white;
+        padding: 100px 300px;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .menu {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #fff;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .menu-item {
+        background-color: #ffe4b5;
+        border-radius: 15px;
+        width: 350px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        padding: 15px;
+        transition: transform 0.3s;
+    }
+
+    .menu-item:hover {
+        transform: scale(1.05);
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .menu-item h3 {
+        margin: 10px 0 5px;
+        color: #b22222;
+    }
+
+    .menu-item span {
+        font-weight: bold;
+        color: #006400;
+    }
+
+    .tentang, .kontak {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #faf0e6;
+    }
+
+    footer {
+        background-color: #ffffff;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+
+    header {
+        position: sticky;
+        top: 0;
+        background-color: white;   
+        z-index: 999;              
+        padding: 15px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        color: #ff4500;
+
+        
+    }
+
+    .card {
+        width: 380px;
+        background: #ffffff;
+        margin: 50px auto;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+        transition: 0.3s ease-in-out;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warung Makan nusantara</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <h2>Selamat Datang di Warung Makan Nusantara</h2>
+        <p>Rasakan kelezatan masakan khas Indonesia dengan cita rasa tradisional!</p>
+    </section>
+
+    
+    <section id="menu" class="menu">
+    <h2>Menu </h2>
+    <div class="menu-container">
+
+        
+        <div class="menu-item">
+            <img src="c:\Users\Hype\Downloads\_Nasi Goreng Spesial_, Mandala, Jakarta.jpg" alt="Nasi Goreng">
+            <h3>Nasi Goreng Spesial</h3>
+            <p>Nasi goreng dengan telur, ayam, dan sayuran segar.</p>
+            <span>Rp25.000</span>
+        </div>
+
+  
+        <div class="menu-item">
+            <img src="c:\Users\Hype\Downloads\Easy Indonesian Fried Noodles (Mie Goreng) - Toast to Home.jpg" alt="Mie Goreng Tumis">
+            <h3>Mie Goreng Tumis</h3>
+            <p>Lezatnya Tumisan Nikmatnya Tiada tandingan.</p>
+            <span>Rp15.000</span>
+        </div>
+
+       
+        <div class="menu-item">
+            <img src="c:\Users\Hype\Downloads\Baksopedes.jpg" alt="Bakso">
+            <h3>Bakso Kuah Pedas</h3>
+            <p>Bola daging sapi dengan kuah gurih dan sambal nikmat.</p>
+            <span>Rp20.000</span>
+        </div>
+
+      
+        <div class="menu-item">
+            <img src="c:\Users\Hype\Downloads\Mie Ayam.jpg" alt="Mie Ayam">
+            <h3>Mie Ayam Jamur</h3>
+            <p>Mie lembut dengan potongan ayam dan jamur sedap.</p>
+            <span>Rp22.000</span>
+        </div>
+
+       
+        <div class="menu-item">
+        <img src="c:\Users\Hype\Downloads\Sate Ayam & Bumbu Kacang _ Resepkoki_co _ Resep masakan, Resep, Ide makanan.jpg" alt="Sate Ayam">
+            <h3>Sate Ayam Bumbu Kacang</h3>
+            <p>Sate ayam empuk dengan bumbu kacang khas Nusantara.</p>
+            <span>Rp30.000</span>
+        </div>
+
+        
+        <div class="menu-item">
+
+            <img src="c:\Users\Hype\Downloads\esteh2.jpg" alt="Es Teh Manis">
+            <h3>Es Teh Manis</h3>
+            <p>Minuman segar pendamping makanan favorit Nusantara.</p>
+            <span>Rp5.000</span>
+        </div>
+
+    </div>
+</section>
+
+        <div class="card">
+    <section id="pesan" class="kontak">
+    <h2>Pemesanan Makan</h2>
+
+    <label>Nama:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama anda"><br><br>
+
+    <label>Pilih Menu:</label>
+    <select id="pilihan">
+        <option value="Nasi_Goreng_Spesial">Nasi Goreng Spesial</option>
+        <option value="Mie_Goreng_Tumis">Mie Goreng Tumis</option>
+        <option value="Bakso_Kuah_Pedas">Bakso Kuah Pedas</option>
+        <option value="Mie_Ayam_Jamur">Mie Ayam Jamur</option>
+        <option value="Sate_Ayam_Bumbu_Kacang">Sate Ayam Bumbu Kacang</option>
+        <option value="Es_Teh_Manis">Es Teh Manis</option>
+    </select><br><br>
+
+    <label>Jumlah:</label>
+    <input type="number" id="jumlah" min="1" value="1"><br><br>
+
+    <button onclick="pesanMakan()">Pesan</button>
+
+    <div id="hasil" style="margin-top:20px;"></div>
+    </section>
+    </div>
+    <script src="script2.js"></script>
+
+    <section id="tentang" class="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Warung Makan Nusantara berdiri sejak 2010 dengan tujuan menyajikan masakan tradisional Indonesia yang autentik dan lezat untuk semua kalangan.</p>
+    </section>
+
+    <section id="kontak" class="kontak">
+        <h2>Kontak Kami</h2>
+        <p>📍 Alamat: Jl. M No. 45, Palembang</p>
+        <p>📞 Telepon: 0812-3456-7890</p>
+        <p>📧 Email: alfianbswsyws@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Warung Makan Nusantara | Cita Rasa Asli Indonesia</p>
+    </footer>
+</body>
+</html>
